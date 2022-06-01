@@ -16,6 +16,7 @@
 		553BEFB22847D87E002D4AAA /* todo_tddUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553BEFB12847D87E002D4AAA /* todo_tddUITests.swift */; };
 		553BEFB42847D87E002D4AAA /* todo_tddUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553BEFB32847D87E002D4AAA /* todo_tddUITestsLaunchTests.swift */; };
 		553BEFC12847DB42002D4AAA /* ToDoItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553BEFC02847DB42002D4AAA /* ToDoItemTests.swift */; };
+		553BEFC32847E70F002D4AAA /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553BEFC22847E70F002D4AAA /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		553BEFB12847D87E002D4AAA /* todo_tddUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todo_tddUITests.swift; sourceTree = "<group>"; };
 		553BEFB32847D87E002D4AAA /* todo_tddUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todo_tddUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		553BEFC02847DB42002D4AAA /* ToDoItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ToDoItemTests.swift; path = Model/ToDoItemTests.swift; sourceTree = "<group>"; };
+		553BEFC22847E70F002D4AAA /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				553BEF992847D87E002D4AAA /* Assets.xcassets */,
 				553BEF9B2847D87E002D4AAA /* LaunchScreen.storyboard */,
 				553BEF9E2847D87E002D4AAA /* Info.plist */,
+				553BEFC22847E70F002D4AAA /* ToDoItem.swift */,
 			);
 			path = "todo-tdd";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				553BEF952847D87C002D4AAA /* ViewController.swift in Sources */,
 				553BEF912847D87C002D4AAA /* AppDelegate.swift in Sources */,
+				553BEFC32847E70F002D4AAA /* ToDoItem.swift in Sources */,
 				553BEF932847D87C002D4AAA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
