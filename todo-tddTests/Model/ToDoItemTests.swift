@@ -19,7 +19,23 @@ class ToDoItemTests: XCTestCase {
     }
     
     func testInit_ShouldTakeTitle() {
-        _ = ToDoItem(title: "Test Title")
+        let item = ToDoItem(title: "Test title")
+          XCTAssertEqual(item.title, "Test title",
+              "Initializer should set the item title")
     }
 
+    func testInit_ShouldSetTitleAndDescription() {
+        let item = ToDoItem(title: "Test title",
+                            itemDescription: "Test description")
+        XCTAssertEqual(item.itemDescription , "Test description",
+                       "Initializer should set the item description")
+    }
+    
+    func testInit_ShouldSetTitleAndDescriptionAndTimestamp() {
+           let item = ToDoItem(title: "Test title",
+               itemDescription: "Test description",
+               timestamp: 0.0)
+           XCTAssertEqual(0.0, item.timestamp,
+               "Initializer should set the timestamp")
+    }
 }
